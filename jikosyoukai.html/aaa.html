@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問題</title>
+    
+    <script>
+        
+         function test() {
+           h2="正解";
+            document.getElementById("sample").innerHTML = h2;
+            
+        }
+        function test1() {
+           h2="不正解";
+            document.getElementById("sample").innerHTML = h2;
+        }
+       
+    </script>
+</head>
+<body>
+    <h1>問題です：私の血液型は何型でしょうか。</h1>
+    <input type ="butto" value ="1: AB型" onclick ="test1()">
+    
+    <input type ="butto" value ="2: O型" onclick ="test1()">
+   
+    <input type ="butto" value ="3: A型" onclick ="test()">
+
+    <input type ="butto" value ="4: B型" onclick ="test1()">
+    <div id="sample"></div>
+    <h3>一発であてられたかな？</h3>
+</body>
+</html>
